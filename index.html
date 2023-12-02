@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- To include css file -->
+    <link rel="stylesheet" href=" ./index.css" /> 
+    <title>Document</title>
+</head>
+<body>
+    <div id="root"></div>
+    <!-- First Example -- using javascript 
+         <script>
+        const heading = document.createElement("h1")
+        heading.innerHTML = "Hello World from javascript!"
+        const root = document.getElementById("root");
+        root.appendChild(heading)
+    </script> -->
+
+    <!-- Including of react through cdn links -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src = "App.js">
+        
+    </script>
+
+</body>
+</html>
+
+<!-- Browser understand all these code as browser is build with javascript engine 
+2) To use react we first need to bring react into our project so in order to do that we will use cdn react i.e content delivery network 
+https://legacy.reactjs.org/docs/cdn-links.html
+So we will get the above link that is from , it includes link to add react in our project.
+Now we can copy those links and add it in our script tags.
+3) Check what is cross origin in it
+-->
